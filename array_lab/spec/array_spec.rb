@@ -17,7 +17,6 @@ describe 'working through various arrays' do
       # Use array index only i.e. array[0]
       expect(dog_breeds[1]). to eq 'boxer'
     end
-
   end
 
   context 'test 2 dimensional arrays' do
@@ -38,7 +37,6 @@ describe 'working through various arrays' do
     it 'the second entry should be a boxer' do
       # Use array index only i.e. array[0]
       expect(dog_breed_and_names[1][0]).to match 'boxer'
-
     end
 
   end
@@ -50,7 +48,6 @@ describe 'working through various arrays' do
       # Use a mix of array methods and indexes
       expect(dog_breed_names_age_and_health[3][1]).to match 'streak'
       expect(dog_breed_names_age_and_health[3][2][1]).to match 'old dog'
-
     end
 
     it 'the bloodhound should be 6 years old and healthy' do
@@ -64,7 +61,6 @@ describe 'working through various arrays' do
       expect(dog_breed_names_age_and_health[0][0]).to match 'jack russell'
       expect(dog_breed_names_age_and_health[0][2][0]).to match 4
     end
-
   end
 
 end
